@@ -102,6 +102,7 @@ let knygos =
 //------------------------1.1------------------------------------------------------------------
 for(kategorija of knygos){
 	for(duomenys in kategorija){
+		console.log(" ")
 		for(apie in duomenys){
 			for(savybe in kategorija[duomenys][apie]){
 				if(savybe == 'leidimoMetai'){
